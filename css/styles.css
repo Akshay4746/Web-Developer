@@ -1,0 +1,162 @@
+body{
+     margin:0;
+     color:white;
+     text-align:center;
+     font-family: 'Quicksand', sans-serif;
+     color:black;
+     background-color:#f1f1e8;
+}
+hr{
+     width:5%;
+     border-top:6px solid #e8ded2;
+     border-bottom:none;
+     border-top-style: dotted;
+     margin-top:20px;
+}
+
+/* Top container */
+.top-container{
+     position: relative;
+     background-color:#a3d2ca;
+     padding-top:50px;
+}
+.top-cloud
+{
+     position: absolute;
+     right: 121px;
+     top: 55px;
+     
+}  
+.top-container h1
+{
+     font-family: 'Kaushan Script', cursive;
+     font-size:6.59rem;
+     margin:50px auto 0 auto;
+     color:#145374;
+
+}
+.top-container h6{
+     font-family: 'Boogaloo', cursive;
+     font-size:2.85rem;
+     font-weight:normal;
+     margin-top:0px;
+     color:#145374;
+
+}
+
+.bottom-cloud
+{
+     position: absolute;
+     left: 122px;
+     bottom: 293px;
+    
+}
+/* css styling for headers,paragraphs and anchors  of middle and bottom container */
+
+h2{
+     font-size:2.5rem;
+     color:#145374;
+     font-weight:bold;
+}
+h3{
+     font-size:1.8rem;
+     color:#145374;
+     font-weight:bold;
+     
+}
+ p
+{
+     font-size: 1.5rem;
+     font-weight: normal;
+}
+a
+{
+     text-decoration:none;
+     color:white;
+     font-weight:bold;
+}
+
+/* Middle Container */
+.middle-container
+{
+  color:black;
+  padding-top:20px;
+   
+}
+.profile{
+     width:40%;
+     margin:auto;
+     padding-bottom:36px;
+}
+.profile img{
+     height:200px;
+     width:200px;
+     padding-top:20px;
+}
+.skills
+{
+     padding-top:33px;
+}
+.skills p
+{
+     font-size:20px;
+}
+.skill-row
+{
+     width:50%;
+     margin: 100px auto 100px auto;
+     text-align:left;
+     line-height:1.5;
+}
+.skill1
+{
+     /* height:300px; */
+     width:25%;
+     float:left;
+     margin-right:30px;
+}
+.skill2
+{
+     /* height:300px; */
+     width:25%;
+     float:right;
+     margin-left:30px;
+}
+.contact-me
+{
+     height:230px;
+     padding:20px;
+     font-family: 'Josefin Sans', sans-serif;
+}
+.btn
+{
+    background-color:#2d4059;
+    height: 50px;
+    width: 166px;
+    padding:10px 10px 10px 10px;
+    border-radius: 8px;
+    font-size:20px;
+    color:white;
+    
+}
+.btn:hover{
+  background-color:#5c7392;
+  cursor:pointer;
+}
+.bottom-container
+{     
+   color:black; 
+   background-image:linear-gradient(to left,#a3d2ca,cyan);
+   margin:30px 0px 0px 0px;
+   padding:20px;
+   text-align:center; 
+   height:67px;
+}
+.bottom-container a{
+     padding:20px;
+     color:#40a8c4;
+}
+.bottom-container p
+{
+     color:#40a8c4;
+}

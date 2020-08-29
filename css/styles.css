@@ -50,7 +50,7 @@ hr{
 }
 .mountain
 {
-     width:50%;
+     width:inherit;
 }
 
 .bottom-cloud
